@@ -2,6 +2,8 @@
   "version": 1,
   "name": "ZDC - Main",
   "id": "f19c3c64-81ee-4637-a8dc-c07bfbdd2131",
+  "updateUrl": "https://raw.githubusercontent.com/vzdc-artcc/vATIS/refs/heads/main/Profiles/vATIS%20Profile%20-%20ZDC%20-%20Main.json",
+  "updateSerial": 2025010701,
   "stations": [
     {
       "id": "881a4491-adea-4711-bf07-700e3f1b6bae",

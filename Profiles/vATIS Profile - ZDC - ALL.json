@@ -1851,7 +1851,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 125725000,
-      "idsEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "idsEndpoint": "https://websocket.ids.vzdc.org/api/vatis/flow",
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -3751,7 +3751,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 127800000,
-      "idsEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "idsEndpoint": "https://websocket.ids.vzdc.org/api/vatis/flow",
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -5653,7 +5653,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 118425000,
-      "idsEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "idsEndpoint": "https://websocket.ids.vzdc.org/api/vatis/flow",
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -7537,7 +7537,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 124475000,
-      "idsEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "idsEndpoint": "https://websocket.ids.vzdc.org/api/vatis/flow",
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -9423,7 +9423,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 121250000,
-      "idsEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "idsEndpoint": "https://websocket.ids.vzdc.org/api/vatis/flow",
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -11323,7 +11323,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 128175000,
-      "idsEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "idsEndpoint": "https://websocket.ids.vzdc.org/api/vatis/flow",
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -13207,7 +13207,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 124875000,
-      "idsEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "idsEndpoint": "https://websocket.ids.vzdc.org/api/vatis/flow",
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -15093,7 +15093,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 121400000,
-      "idsEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "idsEndpoint": "https://websocket.ids.vzdc.org/api/vatis/flow",
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -16975,7 +16975,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 133675000,
-      "idsEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "idsEndpoint": "https://websocket.ids.vzdc.org/api/vatis/flow",
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -18866,7 +18866,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 127500000,
-      "idsEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "idsEndpoint": "https://websocket.ids.vzdc.org/api/vatis/flow",
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -20752,7 +20752,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 119800000,
-      "idsEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "idsEndpoint": "https://websocket.ids.vzdc.org/api/vatis/flow",
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -22646,7 +22646,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 125175000,
-      "idsEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "idsEndpoint": "https://websocket.ids.vzdc.org/api/vatis/flow",
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -24528,7 +24528,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 125175000,
-      "idsEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "idsEndpoint": "https://websocket.ids.vzdc.org/api/vatis/flow",
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -26414,7 +26414,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 128650000,
-      "idsEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "idsEndpoint": "https://websocket.ids.vzdc.org/api/vatis/flow",
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -28300,7 +28300,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 127150000,
-      "idsEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "idsEndpoint": "https://websocket.ids.vzdc.org/api/vatis/flow",
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -30186,7 +30186,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 118425000,
-      "idsEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "idsEndpoint": "https://websocket.ids.vzdc.org/api/vatis/flow",
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -32072,7 +32072,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 123800000,
-      "idsEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "idsEndpoint": "https://websocket.ids.vzdc.org/api/vatis/flow",
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -33954,7 +33954,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 119500000,
-      "idsEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "idsEndpoint": "https://websocket.ids.vzdc.org/api/vatis/flow",
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -35840,7 +35840,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 132375000,
-      "idsEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "idsEndpoint": "https://websocket.ids.vzdc.org/api/vatis/flow",
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -37749,7 +37749,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 134850000,
-      "idsEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "idsEndpoint": "https://websocket.ids.vzdc.org/api/vatis/flow",
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -39684,7 +39684,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 123650000,
-      "idsEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "idsEndpoint": "https://websocket.ids.vzdc.org/api/vatis/flow",
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -41612,7 +41612,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 124975000,
-      "idsEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "idsEndpoint": "https://websocket.ids.vzdc.org/api/vatis/flow",
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,

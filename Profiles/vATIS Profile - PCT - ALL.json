@@ -24,8 +24,8 @@
         "surfaceWind": {
           "speakLeadingZero": false,
           "magneticVariation": {
-            "enabled": false,
-            "magneticDegrees": 0
+            "enabled": true,
+            "magneticDegrees": 10
           },
           "standard": {
             "template": {
@@ -393,8 +393,8 @@
         "surfaceWind": {
           "speakLeadingZero": false,
           "magneticVariation": {
-            "enabled": false,
-            "magneticDegrees": 0
+            "enabled": true,
+            "magneticDegrees": 10
           },
           "standard": {
             "template": {
@@ -744,8 +744,8 @@
         "surfaceWind": {
           "speakLeadingZero": false,
           "magneticVariation": {
-            "enabled": false,
-            "magneticDegrees": 0
+            "enabled": true,
+            "magneticDegrees": 10
           },
           "standard": {
             "template": {
@@ -1095,8 +1095,8 @@
         "surfaceWind": {
           "speakLeadingZero": false,
           "magneticVariation": {
-            "enabled": false,
-            "magneticDegrees": 0
+            "enabled": true,
+            "magneticDegrees": 10
           },
           "standard": {
             "template": {
@@ -1448,8 +1448,8 @@
         "surfaceWind": {
           "speakLeadingZero": false,
           "magneticVariation": {
-            "enabled": false,
-            "magneticDegrees": 0
+            "enabled": true,
+            "magneticDegrees": 10
           },
           "standard": {
             "template": {
@@ -1801,8 +1801,8 @@
         "surfaceWind": {
           "speakLeadingZero": false,
           "magneticVariation": {
-            "enabled": false,
-            "magneticDegrees": 0
+            "enabled": true,
+            "magneticDegrees": 10
           },
           "standard": {
             "template": {
@@ -2150,8 +2150,8 @@
         "surfaceWind": {
           "speakLeadingZero": false,
           "magneticVariation": {
-            "enabled": false,
-            "magneticDegrees": 0
+            "enabled": true,
+            "magneticDegrees": 10
           },
           "standard": {
             "template": {
@@ -2503,8 +2503,8 @@
         "surfaceWind": {
           "speakLeadingZero": false,
           "magneticVariation": {
-            "enabled": false,
-            "magneticDegrees": 0
+            "enabled": true,
+            "magneticDegrees": 10
           },
           "standard": {
             "template": {
@@ -2905,8 +2905,8 @@
         "surfaceWind": {
           "speakLeadingZero": false,
           "magneticVariation": {
-            "enabled": false,
-            "magneticDegrees": 0
+            "enabled": true,
+            "magneticDegrees": 10
           },
           "standard": {
             "template": {

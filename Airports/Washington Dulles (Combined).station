@@ -367,7 +367,7 @@
       "name": "30",
       "airportConditions": "",
       "notams": "",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. RNAV Z APCH RWY 30. VA AVAIL UPON REQUEST. DEPG RWY 30.[ARPT_COND] [NOTAMS] @ADVISE_ON_INIT_CONTACT_IAD @READBACK",
+      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. RNAV Z OR RNAV Y APCH RWY 30. VA AVAIL UPON REQUEST. DEPG RWY 30.[ARPT_COND] [NOTAMS] @ADVISE_ON_INIT_CONTACT_IAD @READBACK",
       "externalGenerator": {
         "enabled": false
       }

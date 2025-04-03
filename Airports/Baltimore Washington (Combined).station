@@ -321,9 +321,9 @@
       "id": "57abd055-9ffa-4b23-a5e9-aac63ab66fe6",
       "ordinal": 0,
       "name": "East",
-      "airportConditions": "",
-      "notams": "",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWYS 10, ^15L. DEPG RWYS 15L, ^15R. ACFT ON EAST RAMP EXP RWY 15L. [ARPT_COND] [NOTAMS] @SIMUL @READBACK VFR AIRCRAFT SAY DIRECTION OF FLIGHT AND AIRCRAFT TYPE.",
+      "airportConditions": "ARR ACFT EXP VISUAL OR ILS APCH RWY 10, RWY 15L. DEPG RWYS 15R, 15L.",
+      "notams": "VFR AIRCRAFT SAY DIRECTION OF FLIGHT AND AIRCRAFT TYPE.",
+      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @SIMUL @READBACK ",
       "externalGenerator": {
         "enabled": false
       }
@@ -332,9 +332,9 @@
       "id": "12ae68b7-1a36-46a3-b732-be360f3aa107",
       "ordinal": 1,
       "name": "West",
-      "airportConditions": "",
-      "notams": "",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWY 33L, RWY 33R. DEPG RWYS 28, 33R. ACFT ON EAST RAMP EXP RWY 33R. [ARPT_COND] [NOTAMS] @SIMUL @READBACK VFR AIRCRAFT SAY DIRECTION OF FLIGHT AND AIRCRAFT TYPE.",
+      "airportConditions": "ARR ACFT EXP VISUAL OR ILS APCH RWY 33L, RWY 33R. DEPG RWYS 28, 33R.",
+      "notams": "VFR AIRCRAFT SAY DIRECTION OF FLIGHT AND AIRCRAFT TYPE.",
+      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @SIMUL @READBACK",
       "externalGenerator": {
         "enabled": false
       }
@@ -343,9 +343,9 @@
       "id": "22f98866-9358-4212-8864-23880d1f3246",
       "ordinal": 2,
       "name": "28 OPS",
-      "airportConditions": "",
-      "notams": "",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWY 28. DEPG RWY 28.[ARPT_COND] [NOTAMS] @READBACK ACFT ARE EXPCTD TO CROSS ASAP.",
+      "airportConditions": "ARR ACFT EXP VISUAL OR ILS APCH RWY 28, RWY 33R. DEPG RWYS 28.",
+      "notams": "ACFT ARE EXPCTD TO CROSS ASAP.",
+      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @READBACK",
       "externalGenerator": {
         "enabled": false
       }

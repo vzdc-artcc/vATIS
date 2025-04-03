@@ -3,7 +3,7 @@
   "name": "PCT - ALL",
   "id": "4813f1a6-6140-4b94-8f9b-7dcdee518178",
   "updateUrl": "https://raw.githubusercontent.com/vzdc-artcc/vATIS/refs/heads/main/Profiles/vATIS%20Profile%20-%20PCT%20-%20ALL.json",
-  "updateSerial": 2025010702,
+  "updateSerial": 2025040300,
   "stations": [
     {
       "id": "33ce3831-aa1e-4033-82ec-a67fd4acc7c8",
@@ -329,9 +329,9 @@
           "id": "57abd055-9ffa-4b23-a5e9-aac63ab66fe6",
           "ordinal": 0,
           "name": "East",
-          "airportConditions": "",
-          "notams": "",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWYS 10, ^15L. DEPG RWYS 15L, ^15R. ACFT ON EAST RAMP EXP RWY 15L. [ARPT_COND] [NOTAMS] @SIMUL @READBACK VFR AIRCRAFT SAY DIRECTION OF FLIGHT AND AIRCRAFT TYPE.",
+          "airportConditions": "ARR ACFT EXP ILS OR VIS APCH RWY 10, RWY 15L. DEPG RWYS 15R, ^15L.",
+          "notams": "VFR AIRCRAFT SAY DIRECTION OF FLIGHT AND AIRCRAFT TYPE.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @SIMUL @READBACK ",
           "externalGenerator": {
             "enabled": false
           }
@@ -340,9 +340,9 @@
           "id": "12ae68b7-1a36-46a3-b732-be360f3aa107",
           "ordinal": 1,
           "name": "West",
-          "airportConditions": "",
-          "notams": "",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWY 33L, RWY 33R. DEPG RWYS 28, 33R. ACFT ON EAST RAMP EXP RWY 33R. [ARPT_COND] [NOTAMS] @SIMUL @READBACK VFR AIRCRAFT SAY DIRECTION OF FLIGHT AND AIRCRAFT TYPE.",
+          "airportConditions": "ARR ACFT EXP ILS OR VIS APCH RWY 33L, RWY 33R. DEPG RWYS 28, ^33R.",
+          "notams": "VFR AIRCRAFT SAY DIRECTION OF FLIGHT AND AIRCRAFT TYPE.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @SIMUL @READBACK",
           "externalGenerator": {
             "enabled": false
           }
@@ -351,9 +351,9 @@
           "id": "22f98866-9358-4212-8864-23880d1f3246",
           "ordinal": 2,
           "name": "28 OPS",
-          "airportConditions": "",
-          "notams": "",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWY 28. DEPG RWY 28.[ARPT_COND] [NOTAMS] @READBACK ACFT ARE EXPCTD TO CROSS ASAP.",
+          "airportConditions": "ARR ACFT EXP ILS OR VIS APCH RWY 28, RWY 33R. DEPG RWY 28.",
+          "notams": "ACFT ARE EXPCTD TO CROSS ASAP.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @READBACK",
           "externalGenerator": {
             "enabled": false
           }
@@ -362,8 +362,8 @@
       "contractions": [
         {
           "variableName": "READBACK",
-          "text": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS. ",
-          "voice": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS. "
+          "text": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS.",
+          "voice": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS."
         },
         {
           "variableName": "SIMUL",
@@ -698,9 +698,9 @@
           "id": "5dd74a0f-ff04-44df-9d77-bf0e848db8e6",
           "ordinal": 0,
           "name": "North",
-          "airportConditions": "",
+          "airportConditions": "ARR ACFT EXP ILS OR VIS APCH RWY 3. DEPG RWY 3.",
           "notams": "",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWY 3. DEPG RWY 3. [ARPT_COND] [NOTAMS] @READBACK",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @READBACK",
           "externalGenerator": {
             "enabled": false
           }
@@ -709,7 +709,9 @@
           "id": "5002f585-8a2c-432d-8eee-8091bd50f2a4",
           "ordinal": 1,
           "name": "South",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWY 21. DEPG RWY 21. [ARPT_COND] [NOTAMS] @READBACK",
+		  "airportConditions": "ARR ACFT EXP ILS OR VIS APCH RWY 21. DEPG RWY 21.",
+		  "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @READBACK",
           "externalGenerator": {
             "enabled": false
           }
@@ -718,8 +720,8 @@
       "contractions": [
         {
           "variableName": "READBACK",
-          "text": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS. ",
-          "voice": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS. "
+          "text": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS.",
+          "voice": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS."
         }
       ],
       "airportConditionDefinitions": [],
@@ -1049,9 +1051,9 @@
           "id": "54c4be09-1b3b-40ec-9ec2-970cf77c4c30",
           "ordinal": 0,
           "name": "North",
-          "airportConditions": "",
-          "notams": "",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. RNAV OR VIS APCH RWY 32. DEPG RWY 32. [ARPT_COND] [NOTAMS] TWR CLOSED BETWEEN 2100-0600 LOCAL TIME. C-TAF ON 124.275. TWR CLSD 24H SAT, SUN. @READBACK",
+          "airportConditions": "ARR ACFT EXP RNAV OR VIS APCH RWY 32. DEPG RWY 32.",
+          "notams": "TWR CLOSED BETWEEN 2100-0600 LOCAL TIME. C-TAF ON 124.275. TWR CLSD 24H SAT, SUN.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @READBACK",
           "externalGenerator": {
             "enabled": false
           }
@@ -1060,7 +1062,9 @@
           "id": "c6ed4785-ab7b-48b4-83bd-80702d49f114",
           "ordinal": 1,
           "name": "South",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. RNAV OR VIS APCH RWY 14. DEPG RWY 14. [ARPT_COND] [NOTAMS] TWR CLOSED BETWEEN 2100-0600 LOCAL TIME. C-TAF ON 124.275. @READBACK",
+		  "airportConditions": "ARR ACFT EXP RNAV OR VIS APCH RWY 14. DEPG RWY 14.",
+          "notams": "TWR CLOSED BETWEEN 2100-0600 LOCAL TIME. C-TAF ON 124.275. TWR CLSD 24H SAT, SUN. ",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @READBACK",
           "externalGenerator": {
             "enabled": false
           }
@@ -1069,8 +1073,8 @@
       "contractions": [
         {
           "variableName": "READBACK",
-          "text": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS. ",
-          "voice": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS. "
+          "text": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS.",
+          "voice": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS."
         }
       ],
       "airportConditionDefinitions": [],
@@ -1400,9 +1404,9 @@
           "id": "ef3f5a44-a035-44cf-9d7f-c3e6b6e952e1",
           "ordinal": 0,
           "name": "East",
-          "airportConditions": "",
-          "notams": "",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. RNAV GPS APCH RWY 5. DEPG RWYS 12, ^5. [ARPT_COND] [NOTAMS] TWR CLOSED BETWEEN 2100-0700 LOCAL TIME. C-TAF ON 132.4. @READBACK",
+          "airportConditions": "ARR ACFT EXP RNAV GPS APCH RWY 5. DEPG RWYS 12, 5.",
+          "notams": "TWR CLOSED BETWEEN 2100-0700 LOCAL TIME. C-TAF ON 132.4.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @READBACK",
           "externalGenerator": {
             "enabled": false
           }
@@ -1411,9 +1415,9 @@
           "id": "e2aefec0-b38d-467f-9b26-7a189818e3db",
           "ordinal": 1,
           "name": "West",
-          "airportConditions": "",
-          "notams": "",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWYS 23, ^30. DEPG RWYS 23, ^30. [ARPT_COND] [NOTAMS] TWR CLOSED BETWEEN 2100-0700 LOCAL TIME. C-TAF ON 132.4. @READBACK",
+          "airportConditions": "ARR ACFT EXP ILS OR VIS APCH RWYS 23, 30. DEPG RWYS 23, ^30.",
+          "notams": "TWR CLOSED BETWEEN 2100-0700 LOCAL TIME. C-TAF ON 132.4.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @READBACK",
           "externalGenerator": {
             "enabled": false
           }
@@ -1422,8 +1426,8 @@
       "contractions": [
         {
           "variableName": "READBACK",
-          "text": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS. ",
-          "voice": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS. "
+          "text": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS.",
+          "voice": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS."
         }
       ],
       "airportConditionDefinitions": [],
@@ -1753,9 +1757,9 @@
           "id": "f414c56e-2fd8-48fc-a48e-b2e2731e0e34",
           "ordinal": 0,
           "name": "North",
-          "airportConditions": "",
-          "notams": "",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWY 17. DEPG RWY 17. [ARPT_COND] [NOTAMS] VFR AIRCRAFT SAY DIRECTION OF FLIGHT. TWR CLOSED BETWEEN 2000-0500 LOCAL TIME. C-TAF ON 127.5. @READBACK",
+          "airportConditions": "ARR ACFT EXP ILS OR VIS APCH RWY 17. DEPG RWY 17.",
+          "notams": "VFR AIRCRAFT SAY DIRECTION OF FLIGHT. TWR CLOSED BETWEEN 2000-0500 LOCAL TIME. C-TAF ON 127.5.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @READBACK",
           "externalGenerator": {
             "enabled": false
           }
@@ -1764,9 +1768,9 @@
           "id": "c5b3eb68-c539-41e1-af3c-8810c642f2d9",
           "ordinal": 1,
           "name": "South",
-          "airportConditions": "",
-          "notams": "",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWY 35. DEPG RWY 35. [ARPT_COND] [NOTAMS] VFR AIRCRAFT SAY DIRECTION OF FLIGHT. TWR CLOSED BETWEEN 2000-0500 LOCAL TIME. C-TAF ON 127.5. @READBACK",
+          "airportConditions": "ARR ACFT EXP ILS OR VIS APCH RWY 35. DEPG RWY 35.",
+          "notams": "VFR AIRCRAFT SAY DIRECTION OF FLIGHT. TWR CLOSED BETWEEN 2000-0500 LOCAL TIME. C-TAF ON 127.5.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @READBACK",
           "externalGenerator": {
             "enabled": false
           }
@@ -1775,8 +1779,8 @@
       "contractions": [
         {
           "variableName": "READBACK",
-          "text": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS. ",
-          "voice": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS. "
+          "text": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS.",
+          "voice": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS."
         }
       ],
       "airportConditionDefinitions": [],
@@ -2099,14 +2103,16 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Male"
+        "voice": "Default"
       },
       "presets": [
         {
           "id": "7f671c14-e98b-4403-86db-ee456744caeb",
           "ordinal": 0,
           "name": "North",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. EXPECT ILS/VA RWY 34R. LNDG AND DEPG RWYS 34R, ^34L. [ARPT_COND] [NOTAMS] TWR CLOSED BETWEEN 2230-0630 LOCAL TIME. C-TAF ON 133.1. @READBACK",
+		  "airportConditions": "ARR ACFT EXP ILS OR VIS RWY 34R. LNDG AND DEPG RWYS 34R, ^34L.",
+          "notams": "TWR CLOSED BETWEEN 2230-0630 LOCAL TIME. C-TAF ON 133.1. ",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @READBACK",
           "externalGenerator": {
             "enabled": false
           }
@@ -2115,7 +2121,9 @@
           "id": "e7ea229d-95bb-4e04-8f62-53d5433a3c5f",
           "ordinal": 1,
           "name": "South",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. EXPECT ILS/VA RWY 16L. LNDG AND DEPG RWYS 16R, ^16L. [ARPT_COND] [NOTAMS] @READBACK",
+		  "airportConditions": "ARR ACFT EXP ILS OR VIS RWY 16L. LNDG AND DEPG RWYS 16R, ^16L.",
+          "notams": "TWR CLOSED BETWEEN 2230-0630 LOCAL TIME. C-TAF ON 133.1. ",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @READBACK",
           "externalGenerator": {
             "enabled": false
           }
@@ -2124,8 +2132,8 @@
       "contractions": [
         {
           "variableName": "READBACK",
-          "text": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS",
-          "voice": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS"
+          "text": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS.",
+          "voice": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS."
         }
       ],
       "airportConditionDefinitions": [],
@@ -2455,9 +2463,9 @@
           "id": "59437a1c-1e14-409e-9ee2-cf8429f6a8a1",
           "ordinal": 0,
           "name": "North",
-          "airportConditions": "",
+          "airportConditions": "ARR ACFT EXP ILS OR VIS APCH RWY 34, RWY 2. DEPG RWY 2.",
           "notams": "",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWY 34, RWY 2. DEPG RWY 2. [ARPT_COND] [NOTAMS] @READBACK",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @READBACK",
           "externalGenerator": {
             "enabled": false
           }
@@ -2466,9 +2474,9 @@
           "id": "3bf00eff-0de7-4420-8392-2d1a8d308044",
           "ordinal": 1,
           "name": "South",
-          "airportConditions": "",
+          "airportConditions": "ARR ACFT EXP ILS OR VIS APCH RWY 16. DEPG RWY 20.",
           "notams": "",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWY 16. DEPG RWY 20. [ARPT_COND] [NOTAMS] @READBACK",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @READBACK",
           "externalGenerator": {
             "enabled": false
           }
@@ -2477,8 +2485,8 @@
       "contractions": [
         {
           "variableName": "READBACK",
-          "text": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS. ",
-          "voice": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS. "
+          "text": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS.",
+          "voice": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS."
         }
       ],
       "airportConditionDefinitions": [],
@@ -2801,16 +2809,16 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Male"
+        "voice": "Default"
       },
       "presets": [
         {
           "id": "d9d6ae10-af3e-4c4b-a5f1-e7e4399d2616",
           "ordinal": 1,
           "name": "North w/30",
-          "airportConditions": "",
+          "airportConditions": "ARR ACFT EXP ILS OR VIS APCH RWY 1R, RWY 1C, RWY 1L. DEPG RWY 30. RWY 1C AVBL UPON REQUEST.",
           "notams": "",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWY 1R, RWY 1C, RWY 1L. DEPG RWY 30. RWY 1C AVLBL UPON REQUEST. [ARPT_COND] [NOTAMS] @ADVISE_ON_INIT_CONTACT_IAD @READBACK",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @ADVISE_ON_INIT_CONTACT_IAD @READBACK",
           "externalGenerator": {
             "enabled": false
           }
@@ -2819,9 +2827,9 @@
           "id": "5476cef7-c77d-4f1a-adf6-be7ad359e804",
           "ordinal": 2,
           "name": "South w/30",
-          "airportConditions": "",
+          "airportConditions": "ARR ACFT EXP ILS OR VIS APCH RWY 19R, RWY 19C, RWY 19L. DEPG RWY 30. RWY 19L AVBL UPON REQUEST.",
           "notams": "",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWY 19R, RWY 19C, RWY 19L. DEPG RWY 30. RWY 19L AVLBL UPON REQUEST. [ARPT_COND] [NOTAMS] @ADVISE_ON_INIT_CONTACT_IAD @READBACK",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @ADVISE_ON_INIT_CONTACT_IAD @READBACK",
           "externalGenerator": {
             "enabled": false
           }
@@ -2830,9 +2838,9 @@
           "id": "0cd45005-768d-4c42-88f2-d95ffc9fb3c0",
           "ordinal": 3,
           "name": "North",
-          "airportConditions": "",
+          "airportConditions": "ARR ACFT EXP ILS OR VIS APCH RWY 1R, RWY 1C, RWY 1L. DEPG RWY 1R, ^1C.",
           "notams": "",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWY 1R, RWY 1C, RWY 1L. DEPG RWY 1R, ^1C. [ARPT_COND] [NOTAMS] @ADVISE_ON_INIT_CONTACT_IAD @READBACK",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @ADVISE_ON_INIT_CONTACT_IAD @READBACK",
           "externalGenerator": {
             "enabled": false
           }
@@ -2841,9 +2849,9 @@
           "id": "badcea36-a8f1-43e4-a37f-15a25c1825a7",
           "ordinal": 4,
           "name": "South",
-          "airportConditions": "",
+          "airportConditions": "ARR ACFT EXP ILS OR VIS APCH RWY 19R, RWY 19C, RWY 19L. DEPG RWY 19L, ^19C.",
           "notams": "",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWY 19R, RWY 19C, RWY 19L. DEPG RWY 19L, ^19C. [ARPT_COND] [NOTAMS] @ADVISE_ON_INIT_CONTACT_IAD @READBACK",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @ADVISE_ON_INIT_CONTACT_IAD @READBACK",
           "externalGenerator": {
             "enabled": false
           }
@@ -2852,9 +2860,9 @@
           "id": "5b5b82ba-bc7b-4f41-bae4-c18c1a3979bb",
           "ordinal": 5,
           "name": "30",
-          "airportConditions": "",
+          "airportConditions": "ARR ACFT EXP RNAV Z APCH RWY 30. VA AVAIL UPON REQUEST. DEPG RWY 30.",
           "notams": "",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. RNAV Z OR RNAV Y APCH RWY 30. VA AVAIL UPON REQUEST. DEPG RWY 30.[ARPT_COND] [NOTAMS] @ADVISE_ON_INIT_CONTACT_IAD @READBACK",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @ADVISE_ON_INIT_CONTACT_IAD @READBACK",
           "externalGenerator": {
             "enabled": false
           }
@@ -2863,9 +2871,9 @@
           "id": "486e432c-f9ff-402d-b814-7266baba2bec",
           "ordinal": 5,
           "name": "12",
-          "airportConditions": "",
+          "airportConditions": "ARR ACFT EXP ILS OR VIS APCH RWY 12. DEPG RWY 12.",
           "notams": "",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWY 12. DEPG RWY 12.[ARPT_COND] [NOTAMS] @ADVISE_ON_INIT_CONTACT_IAD @READBACK ",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @ADVISE_ON_INIT_CONTACT_IAD @READBACK",
           "externalGenerator": {
             "enabled": false
           }
@@ -2879,8 +2887,8 @@
         },
         {
           "variableName": "READBACK",
-          "text": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS. ",
-          "voice": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS. "
+          "text": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS.",
+          "voice": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS."
         }
       ],
       "airportConditionDefinitions": [],
@@ -3203,16 +3211,16 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Male"
+        "voice": "Default"
       },
       "presets": [
         {
           "id": "413d0e4b-8e36-4b08-9990-08ecb47bd4bc",
           "ordinal": 0,
           "name": "North VMC",
-          "airportConditions": "",
+          "airportConditions": "ARRIVALS EXPECT @CVPF_MTV. LNDG AND DEPG RWYS 1, 33. MULTIPLE APPROACHES IN EFFECT.",
           "notams": "",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ARRIVALS EXPECT @CVPF_MTV. LNDG AND DEPG RWYS 1, ^33. MULTIPLE APPROACHES IN EFFECT [ARPT_COND] [NOTAMS] @READBACK ",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @NO_PROHIBITED @READBACK",
           "externalGenerator": {
             "enabled": false
           }
@@ -3221,9 +3229,9 @@
           "id": "4397b84a-08e3-41eb-9cd0-31ff76ae6f83",
           "ordinal": 1,
           "name": "North IMC",
-          "airportConditions": "",
+          "airportConditions": "ARRIVALS EXPECT ILS RWY 1. LNDG AND DEPG RWYS 1, 33. MULTIPLE APPROACHES IN EFFECT.",
           "notams": "",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ARRIVALS EXPECT ILS RWY 1. LNDG AND DEPG RWYS 1, ^33. MULTIPLE APPROACHES IN EFFECT [ARPT_COND] [NOTAMS] @READBACK",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @NO_PROHIBITED @READBACK",
           "externalGenerator": {
             "enabled": false
           }
@@ -3232,9 +3240,9 @@
           "id": "be374996-f173-43f1-9c07-6ff95c993615",
           "ordinal": 2,
           "name": "South IMC",
-          "airportConditions": "",
+          "airportConditions": "RNAV Z APCH RWY 19. LNDG AND DEPG RWYS 19, 15. MULTIPLE APPROACHES IN EFFECT.",
           "notams": "",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. RNAV Z APCH RWY 19. LNDG AND DEPG RWYS 19, ^15. MULTIPLE APPROACHES IN EFFECT [ARPT_COND] [NOTAMS] @READBACK",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @NO_PROHIBITED @READBACK",
           "externalGenerator": {
             "enabled": false
           }
@@ -3243,9 +3251,9 @@
           "id": "df39a714-87da-4c87-ab6d-8b2bda54a31e",
           "ordinal": 3,
           "name": "South VMC",
-          "airportConditions": "",
+          "airportConditions": "ARRIVALS EXPECT @CVFP_RIV_VIS. LNDG AND DEPG RWYS 19, 15. MULTIPLE APPROACHES IN EFFECT.",
           "notams": "",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ARRIVALS EXPECT @CVFP_RIV_VIS. LNDG AND DEPG RWYS 19, ^15. MULTIPLE APPROACHES IN EFFECT [ARPT_COND] [NOTAMS] @READBACK",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @NO_PROHIBITED @READBACK",
           "externalGenerator": {
             "enabled": false
           }
@@ -3259,13 +3267,13 @@
         },
         {
           "variableName": "READBACK",
-          "text": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS ",
-          "voice": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS.  "
+          "text": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS.",
+          "voice": "READBACK ALL RUNWAY ASSIGNMENTS AND HOLD SHORT INSTRUCTIONS."
         },
         {
           "variableName": "NO_PROHIBITED",
-          "text": "DO NOT ENTER PROHIBITED AIRSPACE N OF ARPT. ",
-          "voice": "DO NOT ENTER PROHIBITED AIRSPACE NORTH OF THE AIRPORT. "
+          "text": "DO NOT ENTER PROHIBITED AIRSPACE N OF ARPT.",
+          "voice": "DO NOT ENTER PROHIBITED AIRSPACE NORTH OF THE AIRPORT."
         },
         {
           "variableName": "CVPF_MTV",

@@ -317,7 +317,7 @@
     "notamsBeforeFreeText": false,
     "airportConditionsBeforeFreeText": false,
     "frequency": 133675000,
-    "idsEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+    "idsEndpoint": "https://websocket.ids.vzdc.org/api/vatis/flow",
     "useNotamPrefix": false,
     "useDecimalTerminology": false,
     "atisVoice": {

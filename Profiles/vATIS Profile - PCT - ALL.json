@@ -3,7 +3,7 @@
   "name": "PCT - ALL",
   "id": "4813f1a6-6140-4b94-8f9b-7dcdee518178",
   "updateUrl": "https://raw.githubusercontent.com/vzdc-artcc/vATIS/refs/heads/main/Profiles/vATIS%20Profile%20-%20PCT%20-%20ALL.json",
-  "updateSerial": 2025051001,
+  "updateSerial": 2025060501,
   "stations": [
     {
     "id": "0720ca4b-e8b3-44eb-b6fe-068e924e5a1a",
@@ -3563,7 +3563,7 @@
     },
     "notamsBeforeFreeText": false,
     "airportConditionsBeforeFreeText": false,
-    "frequency": 123650000,
+    "frequency": 132650000,
     "idsEndpoint": "https://websocket.ids.vzdc.org/api/vatis/flow",
     "useNotamPrefix": false,
     "useDecimalTerminology": false,

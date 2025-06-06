@@ -308,7 +308,7 @@
   },
   "notamsBeforeFreeText": false,
   "airportConditionsBeforeFreeText": false,
-  "frequency": 123650000,
+  "frequency": 132650000,
   "idsEndpoint": "https://websocket.ids.vzdc.org/api/vatis/flow",
   "useNotamPrefix": false,
   "useDecimalTerminology": false,

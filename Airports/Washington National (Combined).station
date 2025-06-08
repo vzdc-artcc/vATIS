@@ -379,7 +379,7 @@
       "voice": "DO NOT ENTER PROHIBITED AIRSPACE NORTH OF THE AIRPORT. "
     },
     {
-      "variableName": "CVPF_MTV",
+      "variableName": "CVFP_MTV",
       "text": "CVFP MTV 1",
       "voice": "CHARTED VISUAL FLIGHT PROCEDURE MOUNT VERNON VISUAL RUNWAY ONE"
     },

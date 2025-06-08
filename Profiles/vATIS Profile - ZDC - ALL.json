@@ -7552,7 +7552,7 @@
           "id": "413d0e4b-8e36-4b08-9990-08ecb47bd4bc",
           "ordinal": 0,
           "name": "North VMC",
-          "airportConditions": "ARRIVALS EXPECT @CVPF_MTV. LNDG AND DEPG RWYS 1, 33. MULTIPLE APPROACHES IN EFFECT.",
+          "airportConditions": "ARRIVALS EXPECT CFVP MTV. LNDG AND DEPG RWYS 1, 33. MULTIPLE APPROACHES IN EFFECT.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @NO_PROHIBITED @READBACK",
           "externalGenerator": {
@@ -7585,7 +7585,7 @@
           "id": "df39a714-87da-4c87-ab6d-8b2bda54a31e",
           "ordinal": 3,
           "name": "South VMC",
-          "airportConditions": "ARRIVALS EXPECT @CVFP_RIV_VIS. LNDG AND DEPG RWYS 19, 15. MULTIPLE APPROACHES IN EFFECT.",
+          "airportConditions": "ARRIVALS EXPECT CVFP RIV 19. LNDG AND DEPG RWYS 19, 15. MULTIPLE APPROACHES IN EFFECT.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @NO_PROHIBITED @READBACK",
           "externalGenerator": {

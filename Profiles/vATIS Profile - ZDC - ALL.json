@@ -44128,7 +44128,7 @@
           "name": "6 VMC",
           "airportConditions": "VISUAL APP IN USE. LDG AND DEPG RWY 6.",
           "notams": "",
-          "template": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @READBACK",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",

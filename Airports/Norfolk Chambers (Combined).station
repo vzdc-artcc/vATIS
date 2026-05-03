@@ -323,7 +323,7 @@
       "name": "East",
       "airportConditions": "",
       "notams": "",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWY 10. DEPG RWY 10. [ARPT_COND] [NOTAMS] @READBACK",
+      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS OR VIS APCH RWY 10. DEPG RWY 10. [ARPT_COND] [NOTAMS] @READBACK",
       "externalGenerator": {
         "enabled": false
       }

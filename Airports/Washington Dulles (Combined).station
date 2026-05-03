@@ -323,7 +323,7 @@
       "name": "North w/30",
       "airportConditions": "",
       "notams": "",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWY 1R, RWY 1C, RWY 1L. DEPG RWY 30. RWY 1C AVLBL UPON REQUEST. [ARPT_COND] [NOTAMS] @ADVISE_ON_INIT_CONTACT_IAD @READBACK",
+      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS OR VIS APCH RWY 1R, RWY 1C, RWY 1L. DEPG RWY 30. RWY 1C AVLBL UPON REQUEST. [ARPT_COND] [NOTAMS] @ADVISE_ON_INIT_CONTACT_IAD @READBACK",
       "externalGenerator": {
         "enabled": false
       }
@@ -334,7 +334,7 @@
       "name": "South w/30",
       "airportConditions": "",
       "notams": "",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWY 19R, RWY 19C, RWY 19L. DEPG RWY 30. RWY 19L AVLBL UPON REQUEST. [ARPT_COND] [NOTAMS] @ADVISE_ON_INIT_CONTACT_IAD @READBACK",
+      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS OR VIS APCH RWY 19R, RWY 19C, RWY 19L. DEPG RWY 30. RWY 19L AVLBL UPON REQUEST. [ARPT_COND] [NOTAMS] @ADVISE_ON_INIT_CONTACT_IAD @READBACK",
       "externalGenerator": {
         "enabled": false
       }
@@ -345,7 +345,7 @@
       "name": "North",
       "airportConditions": "",
       "notams": "",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWY 1R, RWY 1C, RWY 1L. DEPG RWY 1R, ^1C. [ARPT_COND] [NOTAMS] @ADVISE_ON_INIT_CONTACT_IAD @READBACK",
+      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS OR VIS APCH RWY 1R, RWY 1C, RWY 1L. DEPG RWY 1R, ^1C. [ARPT_COND] [NOTAMS] @ADVISE_ON_INIT_CONTACT_IAD @READBACK",
       "externalGenerator": {
         "enabled": false
       }
@@ -356,7 +356,7 @@
       "name": "South",
       "airportConditions": "",
       "notams": "",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWY 19R, RWY 19C, RWY 19L. DEPG RWY 19L, ^19C. [ARPT_COND] [NOTAMS] @ADVISE_ON_INIT_CONTACT_IAD @READBACK",
+      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS OR VIS APCH RWY 19R, RWY 19C, RWY 19L. DEPG RWY 19L, ^19C. [ARPT_COND] [NOTAMS] @ADVISE_ON_INIT_CONTACT_IAD @READBACK",
       "externalGenerator": {
         "enabled": false
       }
@@ -378,7 +378,7 @@
       "name": "12",
       "airportConditions": "",
       "notams": "",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWY 12. DEPG RWY 12.[ARPT_COND] [NOTAMS] @ADVISE_ON_INIT_CONTACT_IAD @READBACK ",
+      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS OR VIS APCH RWY 12. DEPG RWY 12.[ARPT_COND] [NOTAMS] @ADVISE_ON_INIT_CONTACT_IAD @READBACK ",
       "externalGenerator": {
         "enabled": false
       }

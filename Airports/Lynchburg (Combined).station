@@ -339,7 +339,7 @@
       "id": "fdf9cd56-ddc7-4038-9630-2ee3b14eb41e",
       "ordinal": 2,
       "name": "East",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. EXPECT ILS/VA APCH RWY 4. MULTIPLE APPROACHES IN EFFECT. LNDG AND DEPG RWY 4. [ARPT_COND] [NOTAMS]",
+      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. EXPECT ILS OR VIS APCH RWY 4. MULTIPLE APPROACHES IN EFFECT. LNDG AND DEPG RWY 4. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
       }

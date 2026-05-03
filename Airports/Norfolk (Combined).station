@@ -323,7 +323,7 @@
       "name": "East",
       "airportConditions": "",
       "notams": "",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWY 5. DEPG RWY 5. RWY 14/32 AVAIL UPON REQUEST. [ARPT_COND] [NOTAMS] @READBACK",
+      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS OR VIS APCH RWY 5. DEPG RWY 5. RWY 14/32 PERMANENTLY CLOSED. [ARPT_COND] [NOTAMS] @READBACK",
       "externalGenerator": {
         "enabled": false
       }
@@ -334,7 +334,7 @@
       "name": "West",
       "airportConditions": "TEST.",
       "notams": "TEST.",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWY 23. DEPG RWY 23. RWY 14/32 AVAIL UPON REQUEST. [ARPT_COND] [NOTAMS] @READBACK",
+      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS OR VIS APCH RWY 23. DEPG RWY 23. RWY 14/32 PERMANENTLY CLOSED. [ARPT_COND] [NOTAMS] @READBACK",
       "externalGenerator": {
         "enabled": false
       }

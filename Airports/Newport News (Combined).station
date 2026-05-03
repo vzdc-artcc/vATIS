@@ -323,7 +323,7 @@
       "name": "North",
       "airportConditions": "",
       "notams": "",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWY 7. DEPG RWYS 7, ^2.  [ARPT_COND] [NOTAMS] @READBACK",
+      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS OR VIS APCH RWY 7. DEPG RWYS 7, ^2.  [ARPT_COND] [NOTAMS] @READBACK",
       "externalGenerator": {
         "enabled": false
       }
@@ -334,7 +334,7 @@
       "name": "South",
       "airportConditions": "",
       "notams": "",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS/VA APCH RWY 25. DEPG RWYS 25, ^20.  [ARPT_COND] [NOTAMS] @READBACK",
+      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. ILS OR VIS APCH RWY 25. DEPG RWYS 25, ^20.  [ARPT_COND] [NOTAMS] @READBACK",
       "externalGenerator": {
         "enabled": false
       }

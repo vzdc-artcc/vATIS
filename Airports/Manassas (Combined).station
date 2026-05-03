@@ -321,7 +321,7 @@
       "id": "7f671c14-e98b-4403-86db-ee456744caeb",
       "ordinal": 0,
       "name": "North",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. EXPECT ILS/VA RWY 34R. LNDG AND DEPG RWYS 34R, ^34L. [ARPT_COND] [NOTAMS] TWR CLOSED BETWEEN 2230-0630 LOCAL TIME. C-TAF ON 133.1. @READBACK",
+      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. EXPECT ILS OR VIS APCH RWY 34R. LNDG AND DEPG RWYS 34R, ^34L. [ARPT_COND] [NOTAMS] TWR CLOSED BETWEEN 2230-0630 LOCAL TIME. C-TAF ON 133.1. @READBACK",
       "externalGenerator": {
         "enabled": false
       }
@@ -330,7 +330,7 @@
       "id": "e7ea229d-95bb-4e04-8f62-53d5433a3c5f",
       "ordinal": 1,
       "name": "South",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. EXPECT ILS/VA RWY 16L. LNDG AND DEPG RWYS 16R, ^16L. [ARPT_COND] [NOTAMS] @READBACK",
+      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. EXPECT ILS OR VIS APCH RWY 16L. LNDG AND DEPG RWYS 16R, ^16L. [ARPT_COND] [NOTAMS] @READBACK",
       "externalGenerator": {
         "enabled": false
       }

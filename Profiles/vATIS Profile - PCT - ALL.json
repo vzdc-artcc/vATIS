@@ -3,7 +3,7 @@
   "name": "PCT - ALL",
   "id": "4813f1a6-6140-4b94-8f9b-7dcdee518178",
   "updateUrl": "https://raw.githubusercontent.com/vzdc-artcc/vATIS/refs/heads/main/Profiles/vATIS%20Profile%20-%20PCT%20-%20ALL.json",
-  "updateSerial": 2026050301,
+  "updateSerial": 2026062901,
   "stations": [
     {
     "id": "0720ca4b-e8b3-44eb-b6fe-068e924e5a1a",
@@ -74,8 +74,8 @@
         "southWest": "to the south-west",
         "west": "to the west",
         "northWest": "to the north-west",
-        "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-        "unlimitedVisibilityText": "VIS 10KM",
+        "unlimitedVisibilityVoice": "visibility 10 miles or more",
+        "unlimitedVisibilityText": "VIS 10SM",
         "includeVisibilitySuffix": true,
         "metersCutoff": 5000,
         "template": {
@@ -432,8 +432,8 @@
         "southWest": "to the south-west",
         "west": "to the west",
         "northWest": "to the north-west",
-        "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-        "unlimitedVisibilityText": "VIS 10KM",
+        "unlimitedVisibilityVoice": "visibility 10 miles or more",
+        "unlimitedVisibilityText": "VIS 10SM",
         "includeVisibilitySuffix": true,
         "metersCutoff": 5000,
         "template": {
@@ -801,8 +801,8 @@
         "southWest": "to the south-west",
         "west": "to the west",
         "northWest": "to the north-west",
-        "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-        "unlimitedVisibilityText": "VIS 10KM",
+        "unlimitedVisibilityVoice": "visibility 10 miles or more",
+        "unlimitedVisibilityText": "VIS 10SM",
         "includeVisibilitySuffix": true,
         "metersCutoff": 5000,
         "template": {
@@ -1154,8 +1154,8 @@
         "southWest": "to the south-west",
         "west": "to the west",
         "northWest": "to the north-west",
-        "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-        "unlimitedVisibilityText": "VIS 10KM",
+        "unlimitedVisibilityVoice": "visibility 10 miles or more",
+        "unlimitedVisibilityText": "VIS 10SM",
         "includeVisibilitySuffix": true,
         "metersCutoff": 5000,
         "template": {
@@ -1507,8 +1507,8 @@
         "southWest": "to the south-west",
         "west": "to the west",
         "northWest": "to the north-west",
-        "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-        "unlimitedVisibilityText": "VIS 10KM",
+        "unlimitedVisibilityVoice": "visibility 10 miles or more",
+        "unlimitedVisibilityText": "VIS 10SM",
         "includeVisibilitySuffix": true,
         "metersCutoff": 5000,
         "template": {
@@ -1860,8 +1860,8 @@
         "southWest": "to the south-west",
         "west": "to the west",
         "northWest": "to the north-west",
-        "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-        "unlimitedVisibilityText": "VIS 10KM",
+        "unlimitedVisibilityVoice": "visibility 10 miles or more",
+        "unlimitedVisibilityText": "VIS 10SM",
         "includeVisibilitySuffix": true,
         "metersCutoff": 5000,
         "template": {
@@ -2213,8 +2213,8 @@
         "southWest": "to the south-west",
         "west": "to the west",
         "northWest": "to the north-west",
-        "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-        "unlimitedVisibilityText": "VIS 10KM",
+        "unlimitedVisibilityVoice": "visibility 10 miles or more",
+        "unlimitedVisibilityText": "VIS 10SM",
         "includeVisibilitySuffix": true,
         "metersCutoff": 5000,
         "template": {
@@ -2566,8 +2566,8 @@
         "southWest": "to the south-west",
         "west": "to the west",
         "northWest": "to the north-west",
-        "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-        "unlimitedVisibilityText": "VIS 10KM",
+        "unlimitedVisibilityVoice": "visibility 10 miles or more",
+        "unlimitedVisibilityText": "VIS 10SM",
         "includeVisibilitySuffix": true,
         "metersCutoff": 5000,
         "template": {
@@ -2919,8 +2919,8 @@
         "southWest": "to the south-west",
         "west": "to the west",
         "northWest": "to the north-west",
-        "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-        "unlimitedVisibilityText": "VIS 10KM",
+        "unlimitedVisibilityVoice": "visibility 10 miles or more",
+        "unlimitedVisibilityText": "VIS 10SM",
         "includeVisibilitySuffix": true,
         "metersCutoff": 5000,
         "template": {
@@ -3321,8 +3321,8 @@
         "southWest": "to the south-west",
         "west": "to the west",
         "northWest": "to the north-west",
-        "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-        "unlimitedVisibilityText": "VIS 10KM",
+        "unlimitedVisibilityVoice": "visibility 10 miles or more",
+        "unlimitedVisibilityText": "VIS 10SM",
         "includeVisibilitySuffix": true,
         "metersCutoff": 5000,
         "template": {

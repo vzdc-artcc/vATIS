@@ -2,7 +2,7 @@
   "name": "ZDC - ALL",
   "id": "af758988-6d8f-4a1c-bab5-d3f3a86800f8",
   "updateUrl": "https://raw.githubusercontent.com/vzdc-artcc/vATIS/refs/heads/main/Profiles/vATIS%20Profile%20-%20ZDC%20-%20ALL.json",
-  "updateSerial": 2026050301,
+  "updateSerial": 2026070701,
   "stations": [
     {
       "id": "a1822e36-2579-4db4-a30a-5eb020007d63",
@@ -6012,7 +6012,7 @@
           "id": "5002f585-8a2c-432d-8eee-8091bd50f2a4",
           "ordinal": 1,
           "name": "South",
-          "airportConditions": "ARR ACFT EXP ILS OR VIS APCH RWY 21. DEPG RWY 21.",
+          "airportConditions": "ARR ACFT EXP RNAV OR VIS APCH RWY 21. DEPG RWY 21.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @READBACK",
           "externalGenerator": {
@@ -42076,7 +42076,7 @@
           "id": "be374996-f173-43f1-9c07-6ff95c993615",
           "ordinal": 2,
           "name": "South IMC",
-          "airportConditions": "RNAV Z APCH RWY 19. LNDG AND DEPG RWYS 19, 15. MULTIPLE APPROACHES IN EFFECT.",
+          "airportConditions": "RNAV APCH RWY 19. LNDG AND DEPG RWYS 19, 15. MULTIPLE APPROACHES IN EFFECT.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @NO_PROHIBITED @READBACK",
           "externalGenerator": {

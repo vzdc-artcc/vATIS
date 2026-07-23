@@ -3,7 +3,7 @@
   "name": "PCT - ALL",
   "id": "4813f1a6-6140-4b94-8f9b-7dcdee518178",
   "updateUrl": "https://raw.githubusercontent.com/vzdc-artcc/vATIS/refs/heads/main/Profiles/vATIS%20Profile%20-%20PCT%20-%20ALL.json",
-  "updateSerial": 2026071801,
+  "updateSerial": 2026072301,
   "stations": [
     {
     "id": "0720ca4b-e8b3-44eb-b6fe-068e924e5a1a",
@@ -2115,7 +2115,7 @@
         "id": "7f671c14-e98b-4403-86db-ee456744caeb",
         "ordinal": 0,
         "name": "North",
-    "airportConditions": "ARR ACFT EXP ILS OR VIS RWY 34R. LNDG AND DEPG RWYS 34R, ^34L.",
+    "airportConditions": "ARR ACFT EXP RNAV OR VIS RWY 34R. LNDG AND DEPG RWYS 34R, ^34L.",
         "notams": "TWR CLOSED BETWEEN 2230-0630 LOCAL TIME. C-TAF ON 133.1.",
         "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS] @READBACK",
         "externalGenerator": {
